@@ -47,14 +47,16 @@ td {
     width: 300px;
 }
 
+.container {
+    padding-bottom: 100px;
+}
+
 footer {
     margin-top: 50px;
     text-align: center;
-    position: fixed;
     width: 100%;
     bottom: 5px;
     background-color: #242f44;
-    z-index: 5;
 }
 
 footer h3 {
