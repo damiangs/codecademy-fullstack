@@ -1,1 +1,1 @@
-![project screenshot](screenshot.jpeg)
+![project screenshot](screenshot.png)
