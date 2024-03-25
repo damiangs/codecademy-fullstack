@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Global styles */
+html {
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+}
+
+/*Header*/
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #3d3b40;
+  color: #f8edff;
+}
+
+header h2 {
+  font-size: 1.5rem;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav li {
+  list-style: none;
+  font-size: 1rem;
+}
+
+nav li {
+  padding-left: 3rem;
+}
+
+.contact-btn {
+  padding: 0.5rem 1rem;
+  background-color: #bfcfe7;
+  border: none;
+  border-radius: 1rem;
+  color: #3d3b40;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.hero {
+  background-image: url("./img/1706823905605.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 550px;
+  color: #f8edff;
+  display: flex;
+  align-items: center;
+}
+
+/*Hero*/
+.hero h1 {
+  max-width: 800px;
+  margin: 5rem;
+  font-size: 4rem;
+}
+
+/*Porfolio*/
+.porfolio,
+.contact {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 0 20px;
+  color: #3d3b40;
+}
+
+.porfolio h2 {
+  font-size: 2.5rem;
+}
+
+.cases {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.3rem;
+  gap: 0.3rem;
+}
+
+.case {
+  width: 250px;
+  min-height: 500px;
+  display: flex;
+  align-items: flex-end;
+}
+
+#project1 {
+  background-image: url("./img/1708546974570.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
+}
+
+#project2 {
+  background-image: url("./img/1707747148297.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
+}
+
+#project3 {
+  background-image: url("./img/1709048280959.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
+}
+
+#project4 {
+  background-image: url("./img/1708546974418.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
+}
+
+#project5 {
+  background-image: url("./img/1707747148056.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
+}
+
+#project6 {
+  background-image: url("./img/1709048280883.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
+}
+
+/* Team*/
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  justify-content: center;
+}
+
+.teammate {
+  width: 250px;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+}
+
+#ceo {
+  background-image: url("https://images.unsplash.com/photo-1613064756072-52b429a1e06f?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#art-director {
+  background-image: url("https://images.unsplash.com/photo-1598897516650-e4dc73d8e417?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#lead-designer {
+  background-image: url("https://images.unsplash.com/photo-1600798080838-027fbc1cc892?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.description {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #f8edff;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+}
+
+.description h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.description h4 {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/*Contact*/
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.content {
+  width: 280px;
+  padding-right: 40px;
+  margin: 20px 0;
+  flex-grow: 1;
+  font-size: 1.5rem;
+}
+
+/*footer*/
+footer {
+  padding: 1.5rem;
+  background-color: #3d3b40;
+  color: #f8edff;
+  font-size: 0.75rem;
+  text-align: center;
+  font-weight: 600;
+}
