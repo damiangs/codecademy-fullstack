@@ -30,9 +30,13 @@ html {
   color: #f5efe6;
 }
 
+.navbar li:hover {
+  text-decoration: underline;
+}
+
 /*hero*/
 .hero {
-  height: 30rem;
+  height: 35rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,7 +73,7 @@ html {
 
 /*photos*/
 .photos {
-  height: 20rem;
+  height: 25rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -104,12 +108,11 @@ html {
 
 /*meetup*/
 .meetup {
-  height: 30rem;
+  height: 35rem;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  flex-flow: column wrap;
   justify-content: center;
-  align-items: center;
+  text-align: center;
   background-image: url("https://images.unsplash.com/photo-1518622358385-8ea7d0794bf6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-position: center;
   background-repeat: no-repeat;
@@ -117,7 +120,22 @@ html {
   color: #f5efe6;
 }
 
-.meetup h3 {
-  background-color: black;
+.meetup h2 {
+  background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
+  font-size: 1.5rem;
+}
+
+/*footer*/
+footer {
+  height: 4rem;
+  background-color: #7895b2;
+  color: #f5efe6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: #f5efe6;
 }
