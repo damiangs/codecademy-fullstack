@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+}
+
+/*navbar*/
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  background-color: #7895b2;
+  font-size: 1rem;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 1.5rem;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 1.5rem;
+  color: #f5efe6;
+}
+
+/*hero*/
+.hero {
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?q=80&w=1607&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero h1 {
+  text-align: center;
+  color: #f5efe6;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  font-size: 2.5rem;
+}
+
+/*summary*/
+.summary {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background-color: #aebdca;
+  color: #f5efe6;
+}
+
+.summary h2 {
+  font-size: 1.5rem;
+}
+
+/*photos*/
+.photos {
+  height: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f5efe6;
+}
+
+.photos img {
+  width: 30%;
+  margin: 1%;
+  border-radius: 1rem;
+  border: 5px solid #7895b2;
+}
+
+/*testimonials*/
+.testimonial {
+  height: 10rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #aebdca;
+  color: #f5efe6;
+}
+
+.testimonial h2 {
+  font-size: 1.5rem;
+}
+
+/*meetup*/
+.meetup {
+  height: 30rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1518622358385-8ea7d0794bf6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f5efe6;
+}
+
+.meetup h3 {
+  background-color: black;
+  width: 100%;
+}
